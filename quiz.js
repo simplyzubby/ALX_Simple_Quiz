@@ -9,7 +9,7 @@ function checkAnswer() {
     return; // stop function if no answer is selected
 }
     // Step 4: Compare answers and give feedback
-    if (userAns === correctAnswer) {
+    if (userAnswer === correctAnswer) {
         alert("Correct!");
     } else {
         alert("Wrong! The correct answer is " + correctAnswer);
