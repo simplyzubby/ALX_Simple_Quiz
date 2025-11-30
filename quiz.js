@@ -3,12 +3,11 @@ function checkAnswer() {
     const selectedRadio = document.querySelector('input[name="quiz"]:checked');
     let userAns = "";
     if (selectedRadio) {
-        userAns = selectedRadio.value;
-    } else {
-        alert("Please select an answer!");
-        return; // Stop if no answer is selected
-    }
-
+    userAns = selectedRadio.value;
+} else {
+    alert("Please select an answer!");
+    return; // stop function if no answer is selected
+}
     // Step 4: Compare answers and give feedback
     if (userAns === correctAnswer) {
         alert("Correct!");
