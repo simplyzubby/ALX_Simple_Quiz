@@ -10,7 +10,7 @@ function checkAnswer() {
 }
     // Step 4: Compare answers and give feedback
     if (userAnswer === correctAnswer) {
-        alert("Correct!");
+        alert("Correct! Well done.");
     } else {
         alert("Wrong! The correct answer is " + correctAnswer);
     }
