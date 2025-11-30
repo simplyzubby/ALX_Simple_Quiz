@@ -1,9 +1,9 @@
 function checkAnswer() {
    const correctAnswer = "4"
     const selectedRadio = document.querySelector('input[name="quiz"]:checked');
-    let userAns = "";
+    let userAnswer = "";
     if (selectedRadio) {
-    userAns = selectedRadio.value;
+    userAnswer = selectedRadio.value;
 } else {
     alert("Please select an answer!");
     return; // stop function if no answer is selected
