@@ -12,7 +12,7 @@ function checkAnswer() {
     if (userAnswer === correctAnswer) {
         alert("Correct! Well done.");
     } else {
-        alert("Wrong! The correct answer is " + correctAnswer);
+        alert("That's incorrect. Try again!");
     }
 }
 document.addEventListener("DOMContentLoaded", function () {
